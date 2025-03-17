@@ -1,37 +1,40 @@
-```markdown
 # Flight Price Prediction
 
 ## Overview
 
-The Flight Price Prediction project is a machine learning-based web application built using Streamlit. It predicts flight ticket prices based on various input features such as airline, source, destination, travel date, departure time, arrival time, and total stops. The model is trained on a dataset of flight prices and helps users estimate airfare before booking.
+The **Flight Price Prediction** project is a machine learning-based web application built using **Streamlit**. It predicts the flight ticket prices based on various input features such as airline, source, destination, travel date, departure time, arrival time, and total stops. The model is trained on a dataset of flight prices and aims to help users estimate airfare before booking.
 
 ## Dataset
 
 The dataset used for training the model contains details such as:
 
-- Airline  
-- Date of Journey  
-- Source  
-- Destination  
-- Route  
-- Departure and Arrival Time  
-- Duration  
-- Total Stops  
-- Price  
+- Airline
+- Date of Journey
+- Source
+- Destination
+- Route
+- Departure and Arrival Time
+- Duration
+- Total Stops
+- Price
 
 ## Features
 
-✅ Predicts flight ticket prices based on user input.  
-✅ Uses a trained Random Forest Regression model.  
-✅ Dynamic user interface using Streamlit.  
-✅ Encodes categorical features for better predictions.  
-✅ Displays results in an interactive format.  
+✅ Predicts flight ticket prices based on user input.
+\
+✅ Uses a trained **Random Forest Regression** model.
+\
+✅ Dynamic user interface using **Streamlit**.
+\
+✅ Encodes categorical features for better predictions.
+\
+✅ Displays results in an interactive format.
 
 ## Installation & Usage
 
 ### Prerequisites
 
-Ensure you have Python 3.7+ installed along with the required libraries.
+Ensure you have **Python 3.7+** installed along with the required libraries.
 
 ### Clone the Repository
 
@@ -54,39 +57,41 @@ streamlit run app.py
 
 ## Model Training
 
-The machine learning model is trained using Random Forest Regression. Steps involved:
+The machine learning model is trained using **Random Forest Regression**. Steps involved:
 
-1. **Data Preprocessing** (handling missing values, encoding categorical features, feature selection).  
-2. **Splitting Data** into training and testing sets.  
-3. **Training** the Random Forest Regression model.  
-4. **Evaluating** model performance.  
-5. **Saving** the trained model using pickle.  
+1. Data preprocessing (handling missing values, encoding categorical features, feature selection)
+2. Splitting data into training and testing sets
+3. Training the **Random Forest Regression** model
+4. Evaluating model performance
+5. Saving the trained model using `pickle`
 
 ## Technologies Used
 
-- **Python** (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)  
-- **Machine Learning** (Random Forest Regression)  
-- **Streamlit** (Web UI)  
-- **Pickle** (Model serialization)  
+- **Python** (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
+- **Machine Learning** (Random Forest Regression)
+- **Streamlit** (Web UI)
+- **Pickle** (Model serialization)
 
 ## Project Structure
 
 ```
 📂 flight-price-prediction
- ├── 📄 main.py           # Streamlit app
- ├── 📄 flight_rf.pkl    # Trained model
- ├── 📂 dataset          # Dataset files
- ├── 📂 images           # Background images
- ├── 📄 README.md        # Project Documentation
+ ├── 📄 main.py                 # Streamlit app
+ ├── 📄 flight_rf.pkl          # Trained model
+ ├── 📂 dataset                # Dataset files
+ ├── 📂 images                 # Background images
+ ├── 📄 README.md              # Project Documentation
 ```
 
 ## Screenshots
 
 
+
 ## Future Improvements
 
-🚀 Add more airline companies for better predictions.  
-🚀 Improve model accuracy with advanced ML techniques.  
-🚀 Integrate real-time flight price API.  
-```
+🚀 Add more airline companies for better predictions.
+🚀 Improve model accuracy with advanced ML techniques.
+🚀 Integrate real-time flight price API.
+
+
 
