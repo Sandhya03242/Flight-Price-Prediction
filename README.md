@@ -83,15 +83,17 @@ The machine learning model is trained using **Random Forest Regression**. Steps 
  ├── 📄 README.md              # Project Documentation
 ```
 
-## Screenshots
+## Demo Video
 
-
+📹 **Watch the Flight Price Prediction Demo**  
+[![Watch Video](https://img.icons8.com/ios-filled/50/000000/video.png)](https://drive.google.com/drive/folders/1y0B1dKdushmuSTFOr4E-Z6m_Q69SRDKi?usp=sharing)
 
 ## Future Improvements
 
 🚀 Add more airline companies for better predictions.
 🚀 Improve model accuracy with advanced ML techniques.
 🚀 Integrate real-time flight price API.
+
 
 
 
